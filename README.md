@@ -85,6 +85,21 @@ Industry standard icons for navigation are used in this project in order to keep
 
 ### Colors
 
+Year | Pantone Color | HEX
+------------ | ------------- | -------------
+2020 | Classic Blue | 0F4C81
+2019 | Living Coral | FF6F61
+2018 | Ultra Violet | 5F4B8B
+2017 | Greenery | 88B04B
+2016 | Serenity | 92A8D1
+2016 | Rose Quartz | F7CAC9
+2015 | Marsala | 955251
+2014 | Radiant Orchid | B163A3
+2013 | Emerald | 009473
+2012 | Tangerine Tango | DD4124
+2011 | Honeysuckle | D94F70
+2010 | Turquoise | 45B5AA
+
 ![INSPO](#)
 
 ![INSPO](#)
@@ -164,3 +179,4 @@ After loading the [project repository](#) select the *Clone* button to *Open in 
 
 # Credits 
 - Name's [INSPO](#)
+- Pulled listing of Pantone Color of the Years from [Wikipedia](https://en.wikipedia.org/wiki/Pantone#Color_of_the_Year)
