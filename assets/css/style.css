@@ -33,39 +33,39 @@ body {
     background: black;
 }
 /* colors */
-#twenty {
+.twenty {
     background: #0F4C81;
 }
-#nineteen {
+.nineteen {
     background: #FF6F61;
 }
-#eighteen {
+.eighteen {
     background: #5F4B8B;
 }
-#seventeen {
+.seventeen {
     background: #88B04B;
 }
-#sixteena {
+.sixteena {
     background: #92A8D1;
 }
-#sixteenb {
+.sixteenb {
     background: #F7CAC9;
 }
-#fifteen {
+.fifteen {
     background: #955251;
 }
-#fourteen {
+.fourteen {
     background: #B163A3;
 }
-#thirteen {
+.thirteen {
     background: #009473;
 }
-#twelve {
+.twelve {
     background: #DD4124;
 }
-#eleven {
+.eleven {
     background: #D94F70;
 }
-#ten {
+.ten {
     background: #45B5AA;
 }
