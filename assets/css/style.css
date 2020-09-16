@@ -11,6 +11,14 @@ body {
     background: beige;
 }
 
+#game-wrapper {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .game-piece {
     height: 100px;
     width: 100px;
