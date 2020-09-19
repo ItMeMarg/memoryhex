@@ -8,6 +8,7 @@
 body {
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     background: beige;
 }
 
@@ -20,15 +21,23 @@ body {
 }
 
 .game-piece {
-    height: 100px;
-    width: 100px;
     margin: auto;
+    height: 100px;
+    width: 100px;    
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+
 }
 
 .game-piece-back {
-    height: 100px;
-    width: 100px;
     margin: auto;
+    height: 100px;
+    width: 100px;    
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+    border-radius: 50px;
+   
 
     background: black;
 }
