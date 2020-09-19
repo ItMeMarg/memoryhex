@@ -6,7 +6,6 @@
 }
 
 body {
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     background: beige;
@@ -16,13 +15,14 @@ body {
     width: 800px;
     height: 800px;
     margin: auto;
- 
+    padding-top: 100px;
 }
 
 .game-piece {
     margin: auto;
-    height: 200px;
-    width: 200px;    
+    height: 12rem;
+    width: 12rem;  
+    border: .5rem solid beige;  
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -30,8 +30,9 @@ body {
 
 .game-piece-back {
     margin: auto;
-    height: 200px;
-    width: 200px;    
+    height: 12rem;
+    width: 12rem;  
+    border: .5rem solid beige;    
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -75,4 +76,16 @@ body {
 }
 .ten {
     background: #45B5AA;
+}
+
+@media (max-width: 767px) { 
+
+    .game-piece {
+        /* SMALLER CIRCLES, W SIZE & BORDER */
+    }   
+
+    .game-piece-back {
+        /* SMALLER CIRCLES, W SIZE & BORDER */
+    } 
+
 }
