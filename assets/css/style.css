@@ -16,27 +16,25 @@ body {
     width: 800px;
     height: 800px;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+ 
 }
 
 .game-piece {
     margin: auto;
-    height: 100px;
-    width: 100px;    
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-
+    height: 200px;
+    width: 200px;    
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .game-piece-back {
     margin: auto;
-    height: 100px;
-    width: 100px;    
-        -moz-border-radius: 50px;
-        -webkit-border-radius: 50px;
-    border-radius: 50px;
+    height: 200px;
+    width: 200px;    
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    border-radius: 50%;
    
 
     background: black;
