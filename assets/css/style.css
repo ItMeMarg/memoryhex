@@ -9,20 +9,27 @@ body {
     display: flex;
     flex-wrap: wrap;
     background: beige;
+
+    overflow: auto;
 }
+
+#header {
+    padding-top: 1rem;
+}
+
 
 #game-wrapper {
     width: 800px;
     height: 800px;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 2rem;
 }
 
 .game-piece {
     margin: auto;
-    height: 12rem;
-    width: 12rem;  
-    border: .5rem solid beige;  
+    width: 20vw;
+	height: 20vw;
+    border: 1vw solid beige;  
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -40,43 +47,20 @@ body {
 
     background: black;
 }
-/* colors */
-.twenty {
-    background: #0F4C81;
-}
-.nineteen {
-    background: #FF6F61;
-}
-.eighteen {
-    background: #5F4B8B;
-}
-.seventeen {
-    background: #88B04B;
-}
-.sixteena {
-    background: #92A8D1;
-}
-.sixteenb {
-    background: #F7CAC9;
-}
-.fifteen {
-    background: #955251;
-}
-.fourteen {
-    background: #B163A3;
-}
-.thirteen {
-    background: #009473;
-}
-.twelve {
-    background: #DD4124;
-}
-.eleven {
-    background: #D94F70;
-}
-.ten {
-    background: #45B5AA;
-}
+/* game-piece colors */
+.twenty {background: #0F4C81;}
+.nineteen {background: #FF6F61;}
+.eighteen {background: #5F4B8B;}
+.seventeen {background: #88B04B;}
+.sixteena {background: #92A8D1;}
+.sixteenb {background: #F7CAC9;}
+.fifteen {background: #955251;}
+.fourteen {background: #B163A3;}
+.thirteen {background: #009473;}
+.twelve {background: #DD4124;}
+.eleven {background: #D94F70;}
+.ten {background: #45B5AA;}
+
 
 @media (max-width: 767px) { 
 
