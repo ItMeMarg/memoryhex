@@ -30,8 +30,8 @@ body {
 
 
 #game-wrapper {
-    width: 800px;
-    height: 800px;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
     padding-top: 2rem;
 }
@@ -48,16 +48,18 @@ body {
 
 .game-piece-back {
     margin: auto;
-    height: 12rem;
-    width: 12rem;  
-    border: .5rem solid beige;    
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
+    width: 20vw;
+	height: 20vw;
+    border: 1vw solid beige;  
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
    
 
     background: black;
 }
+
+
 /* game-piece colors */
 .twenty {background: #0F4C81;}
 .nineteen {background: #FF6F61;}
