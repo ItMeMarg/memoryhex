@@ -180,3 +180,4 @@ After loading the [project repository](#) select the *Clone* button to *Open in 
 # Credits 
 - Name's [INSPO](#)
 - Pulled listing of Pantone Color of the Years from [Wikipedia](https://en.wikipedia.org/wiki/Pantone#Color_of_the_Year)
+- Gleaned idea to size game pieces with vw rather than rem or px from this blog post on [the new code](http://thenewcode.com/738/Create-Perfect-Responsive-Shapes-With-CSS-vw-Units) 
