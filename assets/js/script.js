@@ -32,9 +32,11 @@ let colorArray = [
             $(this).animate({opacity:'1.0'});
         },
 
-        //game piece turns PINK on click
+        //game piece turns to random color from colorArray on click
         click: function() {
-            $(this).css({background:'pink'});
+            $(this).css('background', function(i){
+                return colorArray[i % colorArray.length];
+            });
         }
 
     });

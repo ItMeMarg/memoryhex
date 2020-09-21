@@ -48,6 +48,8 @@ body {
     position: relative;
     background: black;
 
+    cursor: pointer;
+
 }
 
 .game-piece-back {
